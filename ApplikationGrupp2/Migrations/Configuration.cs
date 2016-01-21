@@ -9,7 +9,7 @@ namespace ApplikationGrupp2.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
             ContextKey = "ApplikationGrupp2.DAL.UserContext";
         }
 

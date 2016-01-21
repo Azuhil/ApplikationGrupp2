@@ -9,6 +9,8 @@ namespace ApplikationGrupp2.Models
     {
         [Key]
         public int OrderItemID { get; set; }
+        public int ProductID { get; set; }
+
 
         public Order OrderID { get; set; }
     }

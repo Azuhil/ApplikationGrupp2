@@ -9,7 +9,7 @@ namespace ApplikationGrupp2.DAL
         public UserContext() : base("Databas_Applikation")
         {
         }
-
+        //testing testing!! Death to the infidels! TAKBIIIIR!!!
         public DbSet<User> Users { get; set; }
         public DbSet<Customer> Customers { get; set; }
         public DbSet<Order> Orders { get; set; }

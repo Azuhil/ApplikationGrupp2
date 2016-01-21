@@ -9,6 +9,9 @@ namespace ApplikationGrupp2.Models
     {
         [Key]
         public int ProductID { get; set; }
+        [MaxLength(250)]
+        [Column(TypeName = "nvarchar")]
+        public string Comment { get; set; }
 
         public OrderItem OrderItemID { get; set; }
     }

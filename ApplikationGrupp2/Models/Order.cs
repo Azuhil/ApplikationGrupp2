@@ -9,6 +9,9 @@ namespace ApplikationGrupp2.Models
     {
         [Key]
         public int OrderID { get; set; }
+        [MaxLength(30)]
+        public string OrderName { get; set; }
+
 
         public Customer CustomerID { get; set; }
 
